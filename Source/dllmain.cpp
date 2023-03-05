@@ -5,7 +5,7 @@
 SIG_SCAN
 (
     sigUEngine_SetMaxFPS,
-    0x143A31D40,
+    0x143a1fd00,
     "\x48\x89\x5C\x24\x00\x57\x48\x83\xEC\x40\x48\x8B\x3D\x00\x00\x00\x00\x0F\x29\x74\x24\x00\x48\x8B\xCF\x0F\x28\xF1\x48\x8B\x07",
     "xxxx?xxxxxxxx????xxxx?xxxxxxxxx"
 )
@@ -39,7 +39,7 @@ HOOK(void, __fastcall, _UEngine_SetMaxFPS, sigUEngine_SetMaxFPS(), void* _this, 
     float targetFPS = fpsOverrideSettings.DefaultFPSOverride;
     if (MaxFPS == 30.0f) targetFPS = fpsOverrideSettings.ThirtyFPSOverride;
     if (MaxFPS == 60.0f) targetFPS = fpsOverrideSettings.SixtyFPSOverride;
-    LOG("Overriding FPS Cap from %f to %f.", MaxFPS, targetFPS);
+    LOG("FPS Override: Overriding FPS Cap from %f to %f.", MaxFPS, targetFPS);
     original_UEngine_SetMaxFPS(_this, targetFPS);
 }
 
