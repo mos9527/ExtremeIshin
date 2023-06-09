@@ -99,7 +99,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>.\;..\Dependencies\;..\Dependencies\detours\include;$(IncludePath)</IncludePath>
     <LibraryPath>..\Dependencies;..\Dependencies\detours\lib\;$(LibraryPath)</LibraryPath>
-    <OutDir>C:\Program Files (x86)\Steam\steamapps\common\LikeADragonIshin\LikeaDragonIshin\Binaries\Win64</OutDir>
+    <OutDir>H:\Etc\SteamLibrary\steamapps\common\LikeADragonIshin\LikeaDragonIshin\Binaries\Win64</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Publish|x64'">
     <IncludePath>.\;..\Dependencies\;..\Dependencies\detours\include;$(IncludePath)</IncludePath>

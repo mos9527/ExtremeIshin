@@ -1,14 +1,17 @@
 # ExtremeIshin - 人中之龙维新 极！增强模组
 
 ## 下载及安装
+### 利用 ASILoader
 - 在 [Releases](https://github.com/mos9527/ExtremeIshin/releases) 下载模组 `ASI` 文件
 - 在 [ThirteenAG/Ultimate-ASI-Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) 下载 ASI 前置
 - 将文件解压至游戏*主程序*目录，如下：
 ![image](https://user-images.githubusercontent.com/31397301/221357361-15971036-0999-4cbd-aa79-57321087dd5e.png)
-
 该目录在安装目录下 `LikeaDragonIshin\Binaries\Win64`
 - **注意** —— 还需更名 `dinput8.dll` 为 `winmm.dll`.
 - 启动游戏
+### 直接使用
+- 在 [Releases](https://github.com/mos9527/ExtremeIshin/releases) 下载模组 `ASI` 文件
+- 将文件解压至游戏*主程序*目录后，更名 `ExtremeIshin.asi` 为 `winmm.dll`
 
 ## 已有功能
 * 自定义 FPS 上限
@@ -22,8 +25,6 @@
 |![image](https://user-images.githubusercontent.com/31397301/221356968-786043d9-92cc-417b-92a7-019b03011967.png)|
 |:--:| 
 | *120FPS 小游戏/卡拉OK* |
-
-* 其他功能还没想好🤔
 
 ## 配置文件
 配置位于插件目录下的 `ExtremeIshin.toml`， 第一次启动时会自行创建. 配置说明如下：
